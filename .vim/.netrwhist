@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/a_/Desktop/emsdk'
+let g:netrw_dirhist_9='/Users/a_/Desktop/nv/benchmarks/src'
+let g:netrw_dirhist_8='/Users/a_/Desktop/nv/benchmarks'
+let g:netrw_dirhist_7='/Users/a_/Desktop/nv'
+let g:netrw_dirhist_6='/Users/a_/Desktop/COMP3888_M15_04/benchmarks/src'
+let g:netrw_dirhist_5='/Users/a_/.tmux'
+let g:netrw_dirhist_4='/Users/a_/Desktop'
+let g:netrw_dirhist_3='/Users/a_/Desktop/c'
+let g:netrw_dirhist_2='/Users/a_/Desktop/portfolio'
+let g:netrw_dirhist_1='/Users/a_/Creative Cloud Files'
