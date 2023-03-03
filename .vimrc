@@ -17,14 +17,14 @@ set t_Co=256
 set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-set background=dark
 colorscheme miramare 
 let g:miramare_transparent_background=1
 let g:airline_theme = 'miramare'
 let g:deus_termcolors=256
 
 syntax on
-highlight Comment ctermfg=green
+set hlsearch
+highlight Comment ctermbg=green ctermfg=black
 autocmd ColorScheme * highlight Normal ctermbg=None
 autocmd ColorScheme * highlight NonText ctermbg=None
 
@@ -39,11 +39,13 @@ map <c-v> <plug>NERDCommenterUncomment
 set autoindent
 set smartindent
 set shiftwidth=4
+set foldmethod=manual
 
 map <c-e> :FZF<CR>
 map <c-;> <c-w>w
 
 filetype plugin on
+
 
 augroup python
     autocmd!
